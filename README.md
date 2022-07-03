@@ -13,7 +13,7 @@ I then realised that Spotify has an API that allows us to fetch information abou
 
 This project will be split into the following parts:
 1. Methodology
-2. Data Engineering - ETL Pipeline to fetch data from Spotify API into Delta Lake
+2. Data Engineering - ETL pipeline to fetch data from Spotify API into Delta Lake
 3. EDA
 4. Regression model to predict track popularity
 5. Classification model to recommend songs
@@ -24,3 +24,5 @@ Click the link above to read through my work!
 ### System Design
 
 ![diagram](https://github.com/alif898/Spotify-Clasification-based-Recommendation-System/blob/main/diagram.png?raw=true)
+
+In summary, user playlist track data is fetched through the Spotify API and transformed with PySpark, before being loaded into Delta Lake. Susbequently, we take this data and build our machine learning models, again with PySpark and its ML library, pyspark.ml. Model performance is tracked with MLflow. All of this is done through a Databricks notebook.
