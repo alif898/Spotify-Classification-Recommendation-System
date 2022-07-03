@@ -19,6 +19,8 @@ This project will be split into the following parts:
 5. Classification model to recommend songs
 6. Conclusion
 
+Click the link above to read through my work!
+
 ### System Design
 
 ![diagram](https://github.com/alif898/Spotify-Clasification-based-Recommendation-System/blob/main/diagram.png?raw=true)
