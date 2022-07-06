@@ -2,7 +2,7 @@
 
 https://alif898.github.io/Spotify-Clasification-based-Recommendation-System/
 
-### Introduction
+## Introduction
 
 As an avid-user of spotify and a big fan of music in general, I have always been curious about 2 things:
 
@@ -19,10 +19,10 @@ This project will be split into the following parts:
 5. Classification model to recommend songs
 6. Conclusion
 
-Click the link above to read through my work!
-
-### System Design
+## System Design
 
 ![diagram](https://github.com/alif898/Spotify-Clasification-based-Recommendation-System/blob/main/diagram.png?raw=true)
 
 In summary, user playlist track data is fetched through the Spotify API and transformed with PySpark, before being loaded into Delta Lake. Susbequently, we take this data and build our machine learning models, again with PySpark and its ML library, pyspark.ml. Model performance is tracked with MLflow. All of this is done through a Databricks notebook.
+
+Checkout the full notebook [here](https://alif898.github.io/Spotify-Clasification-based-Recommendation-System/)!
