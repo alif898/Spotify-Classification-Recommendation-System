@@ -1,6 +1,6 @@
 # Spotify-Clasification-Recommendation-System
 
-https://alif898.github.io/Spotify-Clasification-based-Recommendation-System/
+Checkout the notebook [here](https://alif898.github.io/Spotify-Clasification-based-Recommendation-System/)!
 
 ## Introduction
 
@@ -20,6 +20,10 @@ This project will be split into the following parts:
 6. Conclusion
 
 ## System Design
+
+Requirements:
+- Databricks account (The notebook was run on Databricks Community Edition)
+- Spotify Developer account
 
 ![diagram](https://github.com/alif898/Spotify-Clasification-based-Recommendation-System/blob/main/diagram.png?raw=true)
 
