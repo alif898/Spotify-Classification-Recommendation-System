@@ -2,6 +2,8 @@
 
 Checkout the notebook [here](https://alif898.github.io/Spotify-Clasification-based-Recommendation-System/)!
 
+Note: Unfortuantely, some of the outputs are rendered in full instead of a smaller scrollable window, which makes it trickier to read. This seems to be a limitation of the way it was written on Databricks. For the best viewing experience, you may try to run the notebook on your own Databricks account.
+
 ## Introduction
 
 As an avid-user of spotify and a big fan of music in general, I have always been curious about 2 things:
@@ -19,7 +21,7 @@ This project will be split into the following parts:
 5. Classification model to recommend songs
 6. Conclusion
 
-## System Design
+## Design
 
 Requirements:
 - Databricks account (The notebook was run on Databricks Community Edition)
@@ -29,4 +31,4 @@ Requirements:
 
 In summary, user playlist track data is fetched through the Spotify API and transformed with PySpark, before being loaded into Delta Lake. Susbequently, we take this data and build our machine learning models, again with PySpark and its ML library, pyspark.ml. Model performance is tracked with MLflow. All of this is done through a Databricks notebook.
 
-Checkout the full notebook [here](https://alif898.github.io/Spotify-Clasification-based-Recommendation-System/)!
+Full notebook: [link](https://alif898.github.io/Spotify-Clasification-based-Recommendation-System/)
