@@ -1,4 +1,4 @@
-# Spotify-Clasification-Recommendation-System
+# Spotify-Classification-Recommendation-System
 
 Checkout the notebook [here](https://alif898.github.io/Spotify-Classification-based-Recommendation-System/)!
 
