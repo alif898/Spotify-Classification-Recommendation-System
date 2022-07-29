@@ -1,6 +1,6 @@
 # Spotify-Classification-Recommendation-System
 
-Checkout the notebook [here](https://alif898.github.io/Spotify-Classification-based-Recommendation-System/)!
+Checkout the notebook [here](https://alif898.github.io/Spotify-Classification-Recommendation-System/)!
 
 Note: Unfortuantely, some of the outputs are rendered in full instead of a smaller scrollable window, which makes it trickier to read. This seems to be a limitation of the way it was written on Databricks. For the best viewing experience, you may try to run the notebook on your own Databricks account.
 
@@ -27,8 +27,8 @@ Requirements:
 - Databricks account (The notebook was run on Databricks Community Edition)
 - Spotify Developer account
 
-![diagram](https://github.com/alif898/Spotify-Classification-based-Recommendation-System/blob/main/diagram.png?raw=true)
+![diagram](https://github.com/alif898/Spotify-Classification-Recommendation-System/blob/main/diagram.png?raw=true)
 
 In summary, user playlist track data is fetched through the Spotify API and transformed with PySpark, before being loaded into Delta Lake. Susbequently, we take this data and build our machine learning models, again with PySpark and its ML library, pyspark.ml. Model performance is tracked with MLflow. All of this is done through a Databricks notebook.
 
-Full notebook: [link](https://alif898.github.io/Spotify-Classification-based-Recommendation-System/)
+Full notebook: [link](https://alif898.github.io/Spotify-Classification-Recommendation-System/)
