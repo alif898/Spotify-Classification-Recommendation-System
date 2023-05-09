@@ -1,5 +1,7 @@
 # Spotify-Classification-Recommendation-System
 
+UPDATE: This project has been modified and can now be found [here](https://github.com/alif898/Spotify-Recommender) instead.
+
 Checkout the notebook [here](https://alif898.github.io/Spotify-Classification-Recommendation-System/)!
 
 Note: Unfortuantely, some of the outputs are rendered in full instead of a smaller scrollable window, which makes it trickier to read. This seems to be a limitation of the way it was written on Databricks. For the best viewing experience, you may try to run the notebook on your own Databricks account.
